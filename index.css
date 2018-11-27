@@ -98,16 +98,32 @@ nav-link {
 
 .portfolio{
  margin: 4em 0;
-    position: relative;
+ position: relative;
+ text-align: center;
 }
-.portfolio h1{
+
+.portfolio h1 {
  color:#089352;
- margin: 2em;
+ margin: 1em;
 }
+
+.portfolio .project-title {
+ color:#089352;
+ font-size: 14px;
+ margin-left: 1em;
+ margin-top: 3em;
+}
+
 .portfolio img{
   height: 15rem;
   width: 100%;
   margin: 1em;
+}
+
+.portfolio .project-link {
+  width: 100%;
+  margin: 1em;
+  color: #077944;
 }
 
 /*Blog Posts*/
@@ -133,6 +149,10 @@ nav-link {
 }
 .blog .card-body{
  padding: 1em;
+}
+
+.blog .card-footer a {
+ color: #077944;
 }
 
 /* contact form */
