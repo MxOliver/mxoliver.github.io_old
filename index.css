@@ -63,35 +63,80 @@ nav-link {
 
 /* about section grid */
 
-.about{
+.about {
  margin: 4em 0;
  padding: 1em;
  position: relative;
+ background: #077944;
 }
+
 .about h1{
- color: #089352;
+ color: black;
  margin: 2em;
 }
+
 .about img{
  height: 100%;
     width: 100%;
 }
 .about span{
  display: block;
- color: #888;
+ color: white;
  position: absolute;
  left: 115px;
 }
+
 .about .desc{
  padding: 2em;
- border-left:2px dashed #87DFA2;
+ border-left:2px dashed white;
 }
 .about .desc h3{
- color: #089352;
+ color: black;
 }
 .about .desc p{
  line-height:2;
- color:#888;
+ color: white;
+}
+
+.about .tech-skills {
+ width: 100%;
+}
+
+.about .skill-header {
+ font-size: 20px;
+ margin-left: 10em;
+ margin-top: 1em;
+ color: black;
+}
+
+.about .skill-button {
+ width: 6em;
+ height: 2em;
+ margin: 1em;
+ background: #089352;
+ color: white;
+}
+
+.about .skill-button:hover {
+ background: #87DFA2;
+}
+
+/* skills */
+
+.about .tech-skills {
+ width: 100%;
+}
+
+.about .skill-button {
+ width: 6em;
+ height: 2em;
+ margin: 1em;
+ background: #089352;
+ color: white;
+}
+
+.about .skill-button:hover {
+ background: #87DFA2;
 }
 
 /*Portfolio*/
