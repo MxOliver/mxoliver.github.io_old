@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.14.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MxOliver/mxoliver.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Oliver Coley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MxOliver/mxoliver.github.io/issues"
+  },
+  "homepage": "https://github.com/MxOliver/mxoliver.github.io#readme"
+}
