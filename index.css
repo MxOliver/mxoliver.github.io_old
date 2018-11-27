@@ -21,3 +21,30 @@ nav-link {
 .navbar-toggler {
   background: #fff !important;
 }
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: white;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h1 {
+  color: #E04E39;
+}
+
+.description p {
+  font-size: 20px;
+  color: black;
+  width: 50%;
+  line-height: 1.5;
+}
