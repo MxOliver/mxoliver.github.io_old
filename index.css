@@ -42,6 +42,7 @@ nav-link {
   background-position: center;
   height: 10em;
   border-bottom: 1px dashed #089352;
+  margin-bottom: 2em;
 }
 
 .description {
