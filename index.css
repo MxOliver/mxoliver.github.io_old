@@ -11,7 +11,7 @@ h1 {
 /* navigation */
 
 .navbar {
-  background: #87DFA2;
+  background: url('header-bg.png');
 }
 
 .nav-link , .navbar-brand{
@@ -23,7 +23,11 @@ nav-link {
 }
 
 .nav-link:hover {
-  color: white;
+  color: #C18576;
+}
+
+.navbar-brand:hover {
+ color: #C18576;
 }
 
 .navbar-collapse {
@@ -41,8 +45,7 @@ nav-link {
   background-size: cover;
   background-position: center;
   height: 10em;
-  border-bottom: 1px dashed #089352;
-  margin-bottom: 2em;
+  border-bottom: 2px dashed #B3432E;
 }
 
 .description {
@@ -54,7 +57,7 @@ nav-link {
 }
 
 .description h1 {
-  color: #089352;
+  color: #B3432E;
 }
 
 .description p {
@@ -69,7 +72,7 @@ nav-link {
  margin: 4em 0;
  padding: 1em;
  position: relative;
- background: #077944;
+ border: 3px dashed #C18576;
 }
 
 .about h1{
@@ -79,7 +82,7 @@ nav-link {
 
 .about img{
  height: 100%;
-    width: 100%;
+ width: 100%;
 }
 .about span{
  display: block;
@@ -97,7 +100,6 @@ nav-link {
 }
 .about .desc p{
  line-height:2;
- color: white;
 }
 
 .about .tech-skills {
@@ -111,45 +113,17 @@ nav-link {
  color: black;
 }
 
-.about .skill-button {
- width: 6em;
- height: 2em;
- margin: 1em;
- background: #089352;
- color: white;
-}
-
-.about .skill-button:hover {
- background: #87DFA2;
-}
-
-/* skills */
-
-.about .tech-skills {
- width: 100%;
-}
-
-.about .skill-button {
- width: 6em;
- height: 2em;
- margin: 1em;
- background: #089352;
- color: white;
-}
-
-.about .skill-button:hover {
- background: #87DFA2;
-}
-
 /*Portfolio*/
 
 .portfolio{
  margin: 4em 0;
+ text-align: center;
  display: flex;
+ flex-flow: column;
  justify-content: center;
  align-items: center;
- flex-direction: column;
- text-align: center;
+ padding-bottom: 2em;
+ border-bottom: 2px dashed #B3432E;
 }
 
 .portfolio .row {
@@ -158,27 +132,27 @@ nav-link {
 }
 
 .portfolio h1 {
- color:#089352;
+ color:#DB7862;
  text-align: center;
 }
 
 .portfolio .project-title {
- color:#089352;
+ color:#B14F37;
  font-size: 14px;
- text-align: center;
  margin-top: 3em;
+ text-align: center;
 }
 
-.portfolio img{
-  height: 25em;
+.portfolio img {
   width: 100%;
   margin: 1em;
+  height: 25em;
 }
 
 .portfolio .project-link {
   width: 100%;
   margin: 1em;
-  color: #077944;
+  color: #DB7862;
 }
 
 /*Blog Posts*/
@@ -186,6 +160,7 @@ nav-link {
 .blog{
  margin: 4em 0;
  position: relative;
+ border-top: 2px dashed #B3432E;
 }
 .blog h1{
  color: #089352;
@@ -196,8 +171,13 @@ nav-link {
 }
 .blog .card img{
  width: 100%;
- height: 12em;
+ height: 100%;
 }
+
+.blog .card {
+ border: 2px dashed #B3432E;
+}
+
 .blog .card-title{
  color:#089352;
 
@@ -207,7 +187,12 @@ nav-link {
 }
 
 .blog .card-footer a {
- color: #077944;
+ color: #DB7862;
+}
+
+.blog .card-footer {
+ border-top: 2px dashed #B3432E;
+ background: white;
 }
 
 /* contact form */
@@ -316,17 +301,36 @@ nav-link {
 		bottom:0;
 	}
 
-/* hex layout */
+  /* skill and hex layout */
 
-.hexagons {
- margin-top: 3em;
-}
+  .tech-skills {
+   height: 25em;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
 
-.hex-2 {
- margin-left: 5em;
-}
+  .skill-header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 
-.skill-button {
- text-align: center;
- margin-top: 2em;
-}
+  .hexagons {
+   margin-top: 4em;
+   align-self: center;
+   margin-bottom: 2em;
+  }
+
+  .hex-2 {
+   margin-left: 5em;
+  }
+
+  .hex:hover {
+   background: #DB8E7D;
+  }
+
+  .skill-button {
+   text-align: center;
+   margin-top: 2em;
+  }
