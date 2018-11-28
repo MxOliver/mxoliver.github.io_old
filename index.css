@@ -277,6 +277,7 @@
 .blog .card {
  border: 2px dashed #B3432E;
  align-items: flex-start;
+ margin-bottom: 1em;
 }
 
 .blog .card-title{
@@ -289,6 +290,7 @@
 
 .blog .card-footer a {
  color: #DB7862;
+ width: 100%;
 }
 
 .blog .card-footer {
