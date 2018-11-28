@@ -277,7 +277,7 @@
 .blog .card {
  border: 2px dashed #B3432E;
  align-items: flex-start;
- margin-bottom: 1em;
+ margin-bottom: 2em;
 }
 
 .blog .card-title{
@@ -290,6 +290,9 @@
 
 .blog .card-footer a {
  color: #DB7862;
+}
+
+.blog .card-footer {
  width: 100%;
 }
 
@@ -306,13 +309,13 @@
 }
 .contact-form h1{
  padding:2em 1px;
- color: #089352;
+ color: #B14F37;
 }
 .contact-form .right{
  max-width: 600px;
 }
 .contact-form .right .btn-secondary{
- background:  #089352;
+ background:  #B14F37;
  color: #fff;
  border:0;
 }
