@@ -129,6 +129,9 @@ nav-link {
 .portfolio .row {
   display: flex;
   justify-content: center;
+}
+
+.col-lg-4 col-md-4 col-sm-12 {
   width: 100%;
 }
 
