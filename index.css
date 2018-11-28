@@ -144,32 +144,32 @@ nav-link {
 
 .portfolio{
  margin: 4em 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  flex-direction: column;
  text-align: center;
 }
 
-.portfolio .container {
+.portfolio .row {
   display: flex;
-  flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .portfolio h1 {
  color:#089352;
- margin: 1em;
+ text-align: center;
 }
 
 .portfolio .project-title {
  color:#089352;
  font-size: 14px;
- margin-left: 1em;
+ text-align: center;
  margin-top: 3em;
 }
 
 .portfolio img{
-  height: 15rem;
+  height: 25em;
   width: 100%;
   margin: 1em;
 }
