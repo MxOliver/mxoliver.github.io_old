@@ -190,10 +190,13 @@
 }
 
 .skill-header {
-  text-align: center;
   display: flex;
   justify-content: center;
   margin-bottom: 2em;
+}
+
+.tech-skills h4 {
+  text-align: center !important;
 }
 
 .hexagons {
