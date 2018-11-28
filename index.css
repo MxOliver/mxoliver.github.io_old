@@ -149,8 +149,10 @@ nav-link {
 }
 
 .portfolio .container {
-  margin-left: 11em;
+  display: flex;
+  flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
