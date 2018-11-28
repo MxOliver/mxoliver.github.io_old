@@ -41,6 +41,7 @@ nav-link {
   background-size: cover;
   background-position: center;
   height: 10em;
+  border-bottom: 1px dashed #089352;
 }
 
 .description {
@@ -143,8 +144,14 @@ nav-link {
 
 .portfolio{
  margin: 4em 0;
- position: relative;
+ flex-direction: column;
  text-align: center;
+}
+
+.portfolio .container {
+  margin-left: 11em;
+  justify-content: center;
+  width: 100%;
 }
 
 .portfolio h1 {
