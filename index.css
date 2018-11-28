@@ -11,7 +11,7 @@ h1 {
 /* navigation */
 
 .navbar {
-  background: url('header-bg.png');
+  background: url('./images/header-bg.png');
 }
 
 .nav-link , .navbar-brand{
