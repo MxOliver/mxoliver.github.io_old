@@ -189,7 +189,7 @@
  flex-direction: column;
 }
 
-.skill-header {
+.skill-header h4 {
   text-align: center;
   display: flex;
   justify-content: center;
