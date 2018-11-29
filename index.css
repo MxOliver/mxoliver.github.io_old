@@ -207,6 +207,11 @@
 
 .hex-2 {
  margin-left: 5em;
+ width: 35%;
+}
+
+.hex {
+  width: 35%;
 }
 
 .hex:hover {
