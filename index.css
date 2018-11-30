@@ -262,6 +262,13 @@
   display: flex;
   align-self: center;
   padding: 1em;
+  width: 100%;
+  height: auto !important;
+}
+
+video {
+  width: 100%;
+  height: auto !important;
 }
 
 /*Blog Posts*/
