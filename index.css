@@ -183,7 +183,7 @@
 /* skill and hex layout */
 
 .tech-skills {
- height: 25em;
+ height: 10em;
  display: flex;
  justify-content: center;
  flex-direction: column;
@@ -192,12 +192,11 @@
 .skill-header {
   display: flex;
   justify-content: center;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .tech-skills h4 {
   text-align: center !important;
-  font-size: 10px;
 }
 
 .hexagons {
@@ -207,7 +206,7 @@
 }
 
 .hex-2 {
- margin-left: 1em;
+ margin-left: 2em;
 }
 
 .hex:hover {
@@ -217,6 +216,7 @@
 .skill-button {
  text-align: center;
  margin-top: 2em;
+ font-size: 10px;
 }
 
 /*Portfolio*/
