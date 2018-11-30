@@ -263,7 +263,7 @@
 
 #chatvid {
   display: flex;
-  justify-content: center;
+  align-self: center;
   padding: 1em;
 }
 
