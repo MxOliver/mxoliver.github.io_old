@@ -216,6 +216,7 @@
 .skill-button {
  text-align: center;
  font-size: 8px;
+ margin-bottom: 2em;
 }
 
 /*Portfolio*/
@@ -258,6 +259,12 @@
   width: 100%;
   margin: 1em;
   color: #DB7862;
+}
+
+#chatvid {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
 
 /*Blog Posts*/
