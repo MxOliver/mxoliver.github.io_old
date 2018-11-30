@@ -183,7 +183,7 @@
 /* skill and hex layout */
 
 .tech-skills {
- height: 10em;
+ height: 8em;
  display: flex;
  justify-content: center;
  flex-direction: column;
@@ -215,8 +215,7 @@
 
 .skill-button {
  text-align: center;
- margin-top: 2em;
- font-size: 10px;
+ font-size: 8px;
 }
 
 /*Portfolio*/
