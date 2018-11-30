@@ -42,7 +42,7 @@
   align-self: center;
   margin-top: 5em;
   text-align: center;
-  top: 15%;
+  top: 10%;
   padding: 2em;
 }
 
@@ -192,7 +192,6 @@
 .skill-header {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
 }
 
 .tech-skills h4 {
@@ -202,7 +201,6 @@
 .hexagons {
  margin-top: 5em;
  align-self: center;
- margin-bottom: 1em;
 }
 
 .hex-2 {
@@ -215,8 +213,7 @@
 
 .skill-button {
  text-align: center;
- font-size: 11px;
- margin-bottom: 1em;
+ font-size: 13px;
 }
 
 /*Portfolio*/
