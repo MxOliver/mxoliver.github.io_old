@@ -197,6 +197,7 @@
 
 .tech-skills h4 {
   text-align: center !important;
+  font-size: 10px;
 }
 
 .hexagons {
@@ -206,7 +207,7 @@
 }
 
 .hex-2 {
- margin-left: 5em;
+ margin-left: 1em;
 }
 
 .hex:hover {
