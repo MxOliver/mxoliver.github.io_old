@@ -34,7 +34,7 @@
   background-color: white;
   background-size: cover;
   background-position: center;
-  height: 1em;
+  height: 15em !important;
   border-bottom: 2px dashed #B3432E;
 }
 
