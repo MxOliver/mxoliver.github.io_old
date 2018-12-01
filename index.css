@@ -280,8 +280,8 @@ video::-webkit-media-controls-panel {
 .blog{
  margin: 4em 0;
  position: relative;
- border-top: 2px dashed #B3432E;
 }
+
 .blog h1{
  color: #DB7862;
  margin: 2em;
