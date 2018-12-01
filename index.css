@@ -362,3 +362,8 @@ img {
   max-width: 100%
   height: auto;
 }
+
+.hex {
+  max-width: 100%;
+  height: auto;
+}
