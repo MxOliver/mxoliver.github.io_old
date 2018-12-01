@@ -271,6 +271,10 @@ video {
   height: auto !important;
 }
 
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, transparent) !important;
+}
+
 /*Blog Posts*/
 
 .blog{
