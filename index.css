@@ -175,7 +175,7 @@
 	}
 
 	.hex .corner-2:before {
-		transform: rotate(60deg) translate(-48px, -10px);
+		transform: rotate(60deg) translate(-48px, -5px);
 		bottom:0;
 	}
 
