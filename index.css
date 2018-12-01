@@ -355,3 +355,10 @@ h1 {
 .social-nav {
  height: 3em;
 }
+
+/* responsive for mobile */
+
+img {
+  max-width: 100%
+  height: auto;
+}
