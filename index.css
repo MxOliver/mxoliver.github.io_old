@@ -25,12 +25,15 @@
     color: #C18576;
 }
 
+#contact-icon {
+	display: flex;
+	justify-content: flex-end;
+}
 
 /* responsive nav */
 
 @media screen and (max-width: 600px) {
-	.nav-item-toggle {display: none;}
-	#contact-icon {display: inline;} 
+	.navbar .nav-item {display: none;}
 }
 
 @media screen and (min-width: 600px) {
@@ -41,9 +44,6 @@
         float: none;
         display: block;
         text-align: left;
-		}
-		#contact-icon {
-			display: none;
 		}
 }
 
