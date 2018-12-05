@@ -27,24 +27,22 @@
 /* responsive nav */
 
 @media screen and (max-width: 600px) {
-		.navbar .nav-item {display: none;}
-		.navbar .nav-item-toggle {display: inline;}
+	.nav-item-toggle {display: none;}
+	#contact-icon {display: inline;} 
 }
 
 @media screen and (min-width: 600px) {
     .navbar.responsive {
         position: relative;
     }
-    .navbar.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
     .navbar.responsive a {
         float: none;
         display: block;
         text-align: left;
-    }
+		}
+		#contact-icon {
+			display: none;
+		}
 }
 
 
