@@ -4,9 +4,14 @@
     background: url('images/hip-square.png');
 }
 
+.navbar-expand{
+	
+}
+
 .nav-link,
 .navbar-brand {
-    color: black;
+		color: black;
+		cursor: pointer;
 }
 
 .nav-link {
