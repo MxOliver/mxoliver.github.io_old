@@ -88,7 +88,8 @@ body {
 /* about section grid */
 
 .about {
-    margin: 4em 0;
+		margin: 4em 0;
+		padding-bottom: 1em;
     position: relative;
 		border: 3px dashed #C18576;
 		font-size: 1.5em;
