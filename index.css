@@ -1,7 +1,7 @@
 /* navigation */
 
 .navbar {
-    background: url('images/nav.png');
+    background: url('images/green_cup.png');
 }
 
 .nav-link,
@@ -33,7 +33,7 @@
 /* header */
 
 .header {
-    background-color: white;
+    background: url("/images/topography.png");
     background-size: cover;
     background-position: center;
     height: 15em !important;
@@ -326,7 +326,7 @@ h1 {
 /* responsive for mobile */
 
 img {
-		max-width: 100%
+    max-width: 100%
 }
 
 .hex {
