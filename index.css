@@ -339,7 +339,8 @@ h5,
 h6,
 a,
 p {
-    font-family: "Yanone Kaffeesatz";
+		font-family: "Yanone Kaffeesatz";
+		font-size: 2em;
 }
 
 h1 {
