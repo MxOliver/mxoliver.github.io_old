@@ -325,6 +325,8 @@ video::-webkit-media-controls-panel {
     font-size: 16px;
 }
 
+/* fonts */
+
 html,
 h2,
 h3,
@@ -333,11 +335,11 @@ h5,
 h6,
 a,
 p {
-    font-family: "Bitter";
+    font-family: "Alegreya Sans";
 }
 
 h1 {
-    font-family: "Glegoo";
+    font-family: "Alegreya Sans SC";
 }
 
 
