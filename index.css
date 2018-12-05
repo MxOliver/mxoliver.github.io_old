@@ -12,6 +12,10 @@
 		font-size: 1em;
 }
 
+.navbar-brand {
+	margin-right: 1em !important;
+}
+
 .nav-link {
     margin-right: 1em !important;
 }
