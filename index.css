@@ -221,7 +221,7 @@ body {
 
 .portfolio .project-title {
     color: #B14F37;
-    font-size: 14px;
+    font-size: 25px !important;
     margin-top: 3em;
     text-align: center;
 }
@@ -234,7 +234,8 @@ body {
 
 .portfolio .project-link {
     width: 100%;
-    margin: 1em;
+		margin: 1em;
+		font-size: 14px !important;
     color: #DB7862;
 }
 
@@ -340,7 +341,7 @@ h6,
 a,
 p {
 		font-family: "Yanone Kaffeesatz";
-		font-size: 2em;
+		font-size: 25px;
 }
 
 h1 {
