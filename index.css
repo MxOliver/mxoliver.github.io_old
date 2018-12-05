@@ -273,3 +273,10 @@ p {
 h1 {
 		font-family: "Alegreya Sans SC";
 }
+
+/* footer */
+
+.footer {
+	background: url('images/hip-square.png');
+	height: 1em;
+}
