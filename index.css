@@ -289,6 +289,12 @@ h1 {
 	font-family: "Yanone Kaffeesatz";
 }
 
+/* */
+
+.footer {
+	height: 1em;
+	background: url('images/hip-square.png');
+}
 
 /* responsive for mobile */
 
