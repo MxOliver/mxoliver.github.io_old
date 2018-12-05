@@ -3,14 +3,13 @@
 .navbar {
 		background: white;
 		border-bottom: 1px solid black;
-		font-size: 1.5em;
 }
 
 .nav-link,
 .navbar-brand {
     color: black;
 		cursor: pointer;
-		font-size: 1.5em;
+		font-size: 1em;
 }
 
 .nav-link {
