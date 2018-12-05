@@ -209,12 +209,15 @@ video::-webkit-media-controls-panel {
 
 .blog .card-title {
 		color: #B3432E;
-		font-size: 18px;
+		font-size: 20px;
 }
 
 .blog .card-body {
 		padding: 1em;
-		font-size: 16px;
+}
+
+.blog .card-text {
+	font-size: 18px;
 }
 
 .blog .card-footer a {
