@@ -30,10 +30,16 @@
 }
 
 
+/* background design */
+
+body {
+    background: url('images/topography.png') !important;
+}
+
+
 /* header */
 
 .header {
-    background: url("/images/topography.png");
     background-size: cover;
     background-position: center;
     height: 15em !important;
