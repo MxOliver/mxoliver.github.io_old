@@ -62,7 +62,8 @@ body {
 
 .header {
     background-size: cover;
-    background-position: center;
+		background-position: center;
+		padding-top: 1em;
     height: 15em !important;
     border-bottom: 2px dashed #B3432E;
 }
