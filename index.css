@@ -1,7 +1,8 @@
 /* navbar */
 
 .navbar {
-		background: url('images/hip-square.png');
+		background: white;
+		border-bottom: 1px solid black;
 		font-size: 1.5em;
 }
 
