@@ -350,7 +350,16 @@ h1 {
 /* footer social nav */
 
 .social-nav {
-    height: 3em;
+		height: 3em;
+		font-family: "Yanone Kaffeesatz";
+}
+
+#contact h1 {
+	font-family: "Alegreya Sans Sc";
+}
+
+#contact .form-group {
+	font-family: "Yanone Kaffeesatz";
 }
 
 
