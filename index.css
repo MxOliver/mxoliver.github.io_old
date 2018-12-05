@@ -285,6 +285,7 @@ h1 {
 /* footer */
 
 .footer {
-	background: url('images/hip-square.png');
+	background: white;
+	border-top: 1px solid black;
 	height: 4em;
 }
