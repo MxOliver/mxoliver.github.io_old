@@ -41,3 +41,8 @@ $(".navbar a").click(function () {
 
  $(document).ready(function(){responsiveVideo();});
  $(window).resize(function() {responsiveVideo();});
+
+
+ /* console logs */
+
+ console.log("still no icon");
