@@ -284,3 +284,10 @@ h1 {
 	border-top: 1px solid black;
 	height: 4em;
 }
+
+/* responsive design */
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
