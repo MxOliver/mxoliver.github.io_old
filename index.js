@@ -5,7 +5,7 @@ $(document).ready(function(){
 })
 
 function toggleNav() {
-  var x = document.getElementById("topNav");
+  var x = document.getElementById("navbarSupportedContent");
   if (x.className == "navbar") {
     x.className += " responsive";
   } else {
