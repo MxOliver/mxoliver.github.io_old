@@ -1,7 +1,8 @@
 /* navigation */
 
 .navbar {
-    background: url('images/hip-square.png');
+		background: url('images/hip-square.png');
+		font-size: 16px;
 }
 
 .nav-link,
@@ -216,13 +217,15 @@ body {
 
 .portfolio h1 {
     color: #DB7862;
-    text-align: center;
+		text-align: center;
+		font-size: 2em;
 }
 
 .portfolio .project-title {
     color: #B14F37;
     margin-top: 3em;
-    text-align: center;
+		text-align: center;
+		font-size: 20px;
 }
 
 .portfolio img {
@@ -234,7 +237,8 @@ body {
 .portfolio .project-link {
     width: 100%;
 		margin: 1em;
-		font-size: 14px !important;
+		font-size: 18px;
+		text-decoration: none;
     color: #DB7862;
 }
 
@@ -340,12 +344,10 @@ h6,
 a,
 p {
 		font-family: "Yanone Kaffeesatz";
-		font-size: 2em;
 }
 
 h1 {
 		font-family: "Alegreya Sans SC";
-		font-size: 3em;
 }
 
 
