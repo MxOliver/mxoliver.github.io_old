@@ -221,7 +221,6 @@ body {
 
 .portfolio .project-title {
     color: #B14F37;
-    font-size: 25px !important;
     margin-top: 3em;
     text-align: center;
 }
@@ -341,11 +340,12 @@ h6,
 a,
 p {
 		font-family: "Yanone Kaffeesatz";
-		font-size: 25px;
+		font-size: 1em;
 }
 
 h1 {
-    font-family: "Alegreya Sans SC";
+		font-family: "Alegreya Sans SC";
+		font-size: 2em;
 }
 
 
