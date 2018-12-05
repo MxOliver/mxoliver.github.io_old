@@ -4,15 +4,6 @@ $(document).ready(function(){
   $('.header').height($(window).height());
 })
 
-function toggleNav() {
-  var x = document.getElementById("navbarSupportedContent");
-  if (x.className == "navbar") {
-    x.className += " responsive";
-  } else {
-    x.classname = "navbar";
-  }
-}
-
 $(".navbar a").click(function () {
   $("body,html").animate({
     scrollTop: $("#" + $(this).data('value')).offset().top

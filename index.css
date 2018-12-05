@@ -27,14 +27,8 @@
 /* responsive nav */
 
 @media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {
-        display: none;
-    }
-    .navbar a.icon {
-        float: right;
-        display: block;
-    }
-}
+		.navbar .nav-item {display: none;}
+		.navbar .nav-item-toggle {justify-content: flex-end;}
 
 @media screen and (min-width: 600px) {
     .navbar.responsive {
