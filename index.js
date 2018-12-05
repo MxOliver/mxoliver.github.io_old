@@ -4,14 +4,15 @@ $(document).ready(function(){
   $('.header').height($(window).height());
 })
 
-$(".navbar a").click(function(){
-  $("body,html").animate({
-   scrollTop:$("#" + $(this).data('value')).offset().top
-  },1000)
+function toggleNav() {
+  var x = document.getElementById("topNav");
+  if (x.className == "navbar") {
+    x.className += " responsive";
+  } else {
+    x.classname = "navbar";
+  }
+}
 
- })
-
-$('.collapse').collapse()
 
 /* mobile optimized video dimensions */
 

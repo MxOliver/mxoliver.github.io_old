@@ -16,10 +16,7 @@
   <!-- navbar -->
 <nav class="navbar navbar-expand-lg fixed-top">
   <a class="navbar-brand" href="/">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  <div class="collapse navbar-collapse " id="topNav">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
       <a class="nav-link" data-value="about" href="#">About</a>
@@ -37,6 +34,10 @@
       <a class="nav-link" data-value="contact" href="contact.html">Contact</a>
       </li>
     </ul>
+    <!--js toggle-->
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <ion-icon name="menu"></ion-icon>
+    </a>
   </div>
 </nav>
   <!-- header -->
@@ -192,5 +193,7 @@
   <!-- custom js script + jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
+  <!-- ion icon library -->
+  <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
 </body>
 </html>
