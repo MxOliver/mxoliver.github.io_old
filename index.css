@@ -28,16 +28,12 @@
     color: #C18576;
 }
 
-#contact-icon {
+.contact-link {
 	display: flex;
 	justify-content: flex-end;
 }
 
 /* responsive nav */
-
-@media screen and (max-width: 600px) {
-	.navbar .nav-item {display: none;}
-}
 
 @media screen and (min-width: 600px) {
     .navbar.responsive {
