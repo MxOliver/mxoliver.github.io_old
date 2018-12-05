@@ -1,4 +1,4 @@
-/* navigation */
+/* navbar */
 
 .navbar {
 		background: url('images/hip-square.png');
@@ -289,15 +289,9 @@ h1 {
 	font-family: "Yanone Kaffeesatz";
 }
 
-/* */
+/* footer */
 
 .footer {
 	height: 1em;
 	background: url('images/hip-square.png');
-}
-
-/* responsive for mobile */
-
-img {
-    max-width: 100%
 }
