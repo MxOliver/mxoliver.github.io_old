@@ -45,4 +45,4 @@ $(".navbar a").click(function () {
 
  /* console logs */
 
- console.log("still no icon");
+ console.log("still no icon ??");
