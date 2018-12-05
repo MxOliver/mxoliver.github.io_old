@@ -120,77 +120,6 @@ body {
     line-height: 2;
 }
 
-.about .tech-skills {
-    width: 100%;
-}
-
-.about .skill-header {
-    font-size: 20px;
-    margin-left: 10em;
-    margin-top: 1em;
-    color: black;
-}
-
-
-/* hexagons */
-
-.hexagon {
-    position: relative;
-    width: 150px;
-    height: 86.60px;
-    background-color: #c85b45;
-    margin: 43.30px 0;
-}
-
-.hexagon:before,
-.hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-}
-
-.hexagon:before {
-    bottom: 100%;
-    border-bottom: 43.30px solid #c85b45;
-}
-
-.hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 43.30px solid #c85b45;
-}
-
-
-/* skill and hex layout */
-
-.tech-skills {
-    height: 10em;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.skill-header {
-    display: flex;
-    justify-content: center;
-}
-
-.tech-skills h4 {
-    text-align: center !important;
-}
-
-.hexagon:hover {
-    background: #DB8E7D;
-}
-
-.skill-button {
-    text-align: center;
-    font-size: 13px;
-}
-
-
 /*Portfolio*/
 
 .portfolio {
@@ -366,8 +295,4 @@ h1 {
 img {
     max-width: 100%
 }
-
-.hex {
-    width: 100%;
-    height: auto;
 }
