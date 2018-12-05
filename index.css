@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 600px) {
 		.navbar .nav-item {display: none;}
-		.navbar .nav-item-toggle {justify-content: flex-end;}
+		.navbar .nav-item-toggle {display: inline;}
 }
 
 @media screen and (min-width: 600px) {
@@ -268,6 +268,7 @@ h6,
 a,
 p {
 		font-family: "Yanone Kaffeesatz";
+		font-size: 1.5em;
 }
 
 h1 {
