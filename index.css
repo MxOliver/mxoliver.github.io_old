@@ -53,12 +53,12 @@
     height: 4em;
 }
 
-.progress-bar javascript {
+.progress-bar {
     background: pink;
     margin: 1em;
 }
 
-.progress-bar javascript p {
+.progress-bar p {
     display: flex;
     justify-content: center;
     text-align: center;
