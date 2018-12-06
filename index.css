@@ -42,12 +42,15 @@
 }
 
 
-/* background design */
+/*  design */
 
 body {
     background: url('images/topography.png') !important;
 }
 
+ion-icon {
+	font-size: 40px;
+}
 
 /* header */
 
