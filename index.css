@@ -48,8 +48,14 @@ body {
     background: url('images/topography.png') !important;
 }
 
+/* icons */
+
 .navbar ion-icon {
 	font-size: 1.4em;
+}
+
+ion-icon:hover {
+	opacity: 0.5;
 }
 
 .footer ion-icon {
