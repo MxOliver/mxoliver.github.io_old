@@ -48,5 +48,15 @@ $(window).resize(function() { responsiveVideo(); });
 /* progress bars */
 
 var ProgressBar = require('progressbar.js')
-var line = new ProgressBar.Line('#container');
 
+var bar = new ProgressBar.Circle('.skills-bar #container', {
+    strokeWidth: 6,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#FFEA82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: null
+});
+
+bar.animate(1.0); // Number from 0.0 to 1.0

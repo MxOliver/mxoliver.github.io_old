@@ -42,6 +42,7 @@
     }
 }
 
+
 /* skills bar */
 
 #skills {
@@ -51,6 +52,13 @@
     justify-content: center;
     height: 4em;
 }
+
+.skills-bar #container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
 
 /*  design */
 
