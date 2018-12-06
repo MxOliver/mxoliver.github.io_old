@@ -45,7 +45,7 @@
 
 /* skills bar */
 
-#skills {
+.skills-bar {
     background: white;
     border-bottom: 2px dashed #B3432E;
     height: 4em;
@@ -135,11 +135,7 @@
 }
 
 .progress.blue .progress-bar {
-    border-color: #049dff;
-}
-
-.progress.blue .progress-left .progress-bar {
-    animation: loading-2 1.5s linear forwards 1.8s;
+    border-color: gold;
 }
 
 /*  design */
