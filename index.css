@@ -64,6 +64,7 @@ ion-icon:hover {
 	display: flex;
 	flex-direction: row;
 	align-content: space-around;
+	justify-content: center;
 	text-decoration: none;
 }
 
@@ -300,7 +301,7 @@ h1 {
 .footer {
 	background: white;
 	border-top: 1px solid black;
-	height: 4em;
+	height: 6em;
 }
 
 /* responsive design */
