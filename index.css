@@ -1,19 +1,19 @@
 /* navbar */
 
 .navbar {
-		background: white;
-		border-bottom: 1px solid black;
+    background: white;
+    border-bottom: 1px solid black;
 }
 
 .nav-link,
 .navbar-brand {
     color: black;
-		cursor: pointer;
-		font-size: 1.2em;
+    cursor: pointer;
+    font-size: 1.2em;
 }
 
 .navbar-brand {
-	margin-right: 1em !important;
+    margin-right: 1em !important;
 }
 
 .nav-link {
@@ -28,6 +28,7 @@
     color: #C18576;
 }
 
+
 /* responsive nav */
 
 @media screen and (min-width: 600px) {
@@ -38,7 +39,7 @@
         float: none;
         display: block;
         text-align: left;
-		}
+    }
 }
 
 
@@ -48,35 +49,40 @@ body {
     background: url('images/topography.png') !important;
 }
 
+
 /* icons */
 
 .navbar ion-icon {
-	font-size: 1.5em;
-	text-decoration: none;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 ion-icon:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 .footer ion-icon {
-	font-size: 4.3em;
-	text-decoration: none;
-	justify-content: center;
-	align-content: space-between;
+    font-size: 4.3em;
+    text-decoration: none;
+}
+
+.footer {
+    justify-content: center;
+    align-content: space-between;
 }
 
 ion-icon {
-	flex-direction: row;
-	color: black;
+    flex-direction: row;
+    color: black;
 }
+
 
 /* header */
 
 .header {
     background-size: cover;
-		background-position: center;
-		padding: 1em;
+    background-position: center;
+    padding: 1em;
     height: 16em !important;
     border-bottom: 2px dashed #B3432E;
 }
@@ -102,10 +108,10 @@ ion-icon {
 /* about section grid */
 
 .about {
-		margin: 4em 0;
-		padding: 1em;
+    margin: 4em 0;
+    padding: 1em;
     position: relative;
-		border: 3px dashed #C18576;
+    border: 3px dashed #C18576;
 }
 
 .about h1 {
@@ -131,14 +137,15 @@ ion-icon {
 }
 
 .about .desc h1 {
-		color: black;
-		font-size: 1.5em;
+    color: black;
+    font-size: 1.5em;
 }
 
 .about .desc p {
-		line-height: 2;
-		font-size: 1.2em;
+    line-height: 2;
+    font-size: 1.2em;
 }
+
 
 /*Portfolio*/
 
@@ -160,15 +167,15 @@ ion-icon {
 
 .portfolio h1 {
     color: #DB7862;
-		text-align: center;
-		font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
 
 .portfolio .project-title {
     color: #B14F37;
     margin-top: 3em;
-		text-align: center;
-		font-size: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .portfolio img {
@@ -179,9 +186,9 @@ ion-icon {
 
 .portfolio .project-link {
     width: 100%;
-		margin: 1em;
-		font-size: 1em;
-		text-decoration: none;
+    margin: 1em;
+    font-size: 1em;
+    text-decoration: none;
     color: #DB7862;
 }
 
@@ -212,8 +219,8 @@ video::-webkit-media-controls-panel {
 
 .blog h1 {
     color: #DB7862;
-		margin: 2em;
-		font-size: 1.5em;
+    margin: 2em;
+    font-size: 1.5em;
 }
 
 .blog .card img {
@@ -228,16 +235,16 @@ video::-webkit-media-controls-panel {
 }
 
 .blog .card-title {
-		color: #B3432E;
-		font-size: 20px;
+    color: #B3432E;
+    font-size: 20px;
 }
 
 .blog .card-body {
-		padding: 1em;
+    padding: 1em;
 }
 
 .blog .card-text {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .blog .card-footer a {
@@ -292,24 +299,26 @@ h5,
 h6,
 a,
 p {
-		font-family: "Yanone Kaffeesatz";
+    font-family: "Yanone Kaffeesatz";
 }
 
 h1 {
-		font-family: "Alegreya Sans SC";
+    font-family: "Alegreya Sans SC";
 }
+
 
 /* footer */
 
 .footer {
-	background: white;
-	border-top: 1px solid black;
-	height: 6em;
+    background: white;
+    border-top: 1px solid black;
+    height: 6em;
 }
+
 
 /* responsive design */
 
 .img-fluid {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
