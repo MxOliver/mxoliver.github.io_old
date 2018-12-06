@@ -54,7 +54,6 @@ body {
 
 .navbar ion-icon {
     font-size: 1.5em;
-    text-decoration: none;
 }
 
 ion-icon:hover {
@@ -63,8 +62,8 @@ ion-icon:hover {
 
 .footer ion-icon {
     font-size: 4.3em;
-    text-decoration: none;
-    padding: 1em;
+    margin-left: 1em;
+    margin-top: 12px;
 }
 
 .footer {
