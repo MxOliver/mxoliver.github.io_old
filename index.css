@@ -42,6 +42,15 @@
     }
 }
 
+/* skills bar */
+
+#skills {
+    background: white;
+    border-bottom: 1px dashed #B3432E;
+    display: flex;
+    justify-content: center;
+    height: 2em;
+}
 
 /*  design */
 
