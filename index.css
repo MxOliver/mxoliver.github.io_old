@@ -71,7 +71,9 @@ ion-icon:hover {
 
 .footer ion-icon {
     font-size: 4.3em;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0 !important;
     margin-top: 12px;
 }
 
