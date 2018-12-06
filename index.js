@@ -47,6 +47,8 @@ $(window).resize(function() { responsiveVideo(); });
 
 /* progress bars */
 
+/* 
+
 var ProgressBar = require('progressbar.js')
 
 var bar = new ProgressBar.Circle('.skills-bar #container', {
@@ -59,4 +61,6 @@ var bar = new ProgressBar.Circle('.skills-bar #container', {
     svgStyle: null
 });
 
-bar.animate(1.0); // Number from 0.0 to 1.0
+bar.animate(1.0); // Number from 0.0 to 1.0 
+
+*/
