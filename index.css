@@ -64,9 +64,11 @@ ion-icon:hover {
 .footer ion-icon {
     font-size: 4.3em;
     text-decoration: none;
+    padding: 1em;
 }
 
 .footer {
+    display: flex;
     justify-content: center;
     align-content: space-between;
 }
