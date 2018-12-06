@@ -52,6 +52,7 @@ body {
 
 .navbar ion-icon {
 	font-size: 1.5em;
+	text-decoration: none;
 }
 
 ion-icon:hover {
@@ -62,6 +63,7 @@ ion-icon:hover {
 	font-size: 5em;
 	display: flex;
 	align-content: space-around;
+	text-decoration: none;
 }
 
 /* header */
