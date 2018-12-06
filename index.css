@@ -51,6 +51,11 @@
     height: 4em;
 }
 
+.skills-bar .container {
+    height: auto;
+    width: 100%;
+}
+
 /* circle progress bar */
 
 .progress {
@@ -135,7 +140,7 @@
 }
 
 .progress.blue .progress-bar {
-    border-color: gold;
+    border-color: #049dff;
 }
 
 /*  design */
