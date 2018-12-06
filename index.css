@@ -46,10 +46,10 @@
 
 #skills {
     background: white;
-    border-bottom: 1px dashed #B3432E;
+    border-bottom: 2px dashed #B3432E;
     display: flex;
     justify-content: center;
-    height: 2em;
+    height: 4em;
 }
 
 /*  design */
