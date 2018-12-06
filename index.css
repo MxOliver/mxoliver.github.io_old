@@ -126,6 +126,10 @@
     animation: loading-1 1.8s linear forwards;
 }
 
+.progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+
 .progress .progress-value {
     width: 90%;
     height: 90%;
