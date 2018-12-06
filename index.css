@@ -53,11 +53,16 @@
     height: 4em;
 }
 
-.progress {
-    padding: 15px;
-    color: yellow;
+.progress-bar javascript {
+    background: pink;
+    margin: 1em;
 }
 
+.progress-bar javascript p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 /*  design */
 
