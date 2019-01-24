@@ -189,7 +189,7 @@ ion-icon {
 }
 
 .portfolio img {
-    width: 100%;
+    width: auto;
     margin: 1em;
     height: 25em;
     border: 0.5px dashed #DB7862;
