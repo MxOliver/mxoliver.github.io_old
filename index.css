@@ -184,7 +184,7 @@ ion-icon {
     font-size: 1.5em;
 }
 
-.sub-title {
+.portfolio .project-title .sub-title {
     font-size: 1em;
 }
 
@@ -192,6 +192,11 @@ ion-icon {
     width: auto;
     margin: 1em;
     height: 25em;
+}
+
+.portfolio .project-image {
+    display: flex;
+    align-self: center;
     padding: 8px;
     border: 0.8px dashed #DB7862;
 }
@@ -202,23 +207,6 @@ ion-icon {
     font-size: 1em;
     text-decoration: none;
     color: #DB7862;
-}
-
-#chatvid {
-    display: flex;
-    align-self: center;
-    padding: 1em;
-    width: 100%;
-    height: auto !important;
-}
-
-video {
-    width: 100%;
-    height: auto !important;
-}
-
-video::-webkit-media-controls-panel {
-    background-image: linear-gradient(transparent, transparent) !important;
 }
 
 
