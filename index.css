@@ -184,15 +184,15 @@ ion-icon {
     font-size: 1.5em;
 }
 
-.portfolio .project-title .sub-title {
-    font-size: 0.6em;
+.sub-title {
+    font-size: 1em;
 }
 
 .portfolio img {
     width: auto;
     margin: 1em;
     height: 25em;
-    padding: 5px;
+    padding: 8px;
     border: 0.8px dashed #DB7862;
 }
 
