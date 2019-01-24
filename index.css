@@ -214,6 +214,10 @@ ion-icon {
 
 /*Blog Posts*/
 
+#blog {
+    margin-top: 15px;
+}
+
 .blog {
     margin: 4em 0;
     position: relative;
