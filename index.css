@@ -191,7 +191,7 @@ ion-icon {
 }
 
 .portfolio img {
-    width: auto;
+    width: 100%;
     margin: 1em;
     height: 25em;
 }
