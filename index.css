@@ -50,7 +50,7 @@
     justify-content: center;
     flex-flow: row;
     border-bottom: 2px dashed #B3432E;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -211,10 +211,6 @@ ion-icon {
 
 /*Blog Posts*/
 
-#blog {
-    margin-top: 15px;
-}
-
 .blog {
     margin: 4em 0;
     position: relative;
@@ -223,6 +219,7 @@ ion-icon {
 .blog h1 {
     color: #DB7862;
     margin: 2em;
+    padding-top: 5em;
     font-size: 1.5em;
 }
 
