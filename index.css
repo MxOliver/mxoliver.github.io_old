@@ -48,15 +48,9 @@
 #skills {
     display: flex;
     justify-content: center;
+    flex-flow: row;
     border-bottom: 2px dashed #B3432E;
 }
-
-#skills .skill {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-}
-
 
 /* social icons */
 
