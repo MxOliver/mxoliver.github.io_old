@@ -5,7 +5,7 @@
     border-bottom: 1px solid black;
 }
 
-nav a,
+.nav-link,
 .navbar-brand {
     color: black;
     cursor: pointer;
@@ -16,11 +16,11 @@ nav a,
     margin-right: 1em !important;
 }
 
-nav li {
-    margin-right: 1.5em !important;
+.nav-link {
+    margin-right: 1em !important;
 }
 
-nav a:hover {
+.nav-link:hover {
     color: #C18576;
 }
 
@@ -28,9 +28,6 @@ nav a:hover {
     color: #C18576;
 }
 
-icon-bar {
- color: black;
-}
 
 /* responsive nav */
 
