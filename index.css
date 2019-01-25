@@ -56,7 +56,11 @@
 
 .skills-bar .project-title {
     padding-bottom: 8px;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+#skills .skill {
+    font-size: 1.15em;
 }
 
 
