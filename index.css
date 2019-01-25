@@ -217,6 +217,10 @@ ion-icon {
     color: #DB7862;
 }
 
+.portfolio .app-link {
+    font-size: 1.2em;
+}
+
 .portfolio a:hover {
     text-decoration: none;
     color: #DB7862;
