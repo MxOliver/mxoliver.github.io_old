@@ -51,11 +51,12 @@
     flex-flow: row;
     border-bottom: 2px dashed #B3432E;
     margin-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 35px !important;
 }
 
 .skills-bar .project-title {
     padding-bottom: 8px;
+    flex-flow: row;
 }
 
 
