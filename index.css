@@ -193,7 +193,7 @@ ion-icon {
 .portfolio img {
     width: 100%;
     margin: 1em;
-    height: 25em;
+    height: 100%;
     display: flex;
     align-self: center;
     padding: 8px;
