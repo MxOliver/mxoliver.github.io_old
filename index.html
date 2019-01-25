@@ -17,36 +17,32 @@
 <body>
   <!-- navbar -->
 <nav class="navbar navbar-expand-lg fixed-top">
-  <div class="container-fluid">
-  <div class="navbar-header">
-    <ion-icon name="menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-    </ion-icon>
-<a class="navbar-brand" href="#">Home</a>
-</div>
-  <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="nav navbar-nav">
-      <li class="active"><a data-value="skills" href="#">Skills</a></li>
-            <li>
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link" data-value="skills" href="#">Skills</a></li>
+            <li class="nav-item">
               <a data-value="portfolio" href="#">Developer Portfolio</a>
               </li>
-            <li>
+            <li class="nav-item">
               <a data-value="about" href="#">About</a>
               </li>
-            <li>
+            <li class="nav-item">
               <a data-value="blog" href="/blog.html">Blog</a>
               </li>
-            <li>
+            <li class="nav-item">
               <a data-value="artwork" href="http://behance.net/OliverLeighColey" target="_blank">Art + Design
                 Portfolio</a>
               </li>
-            <li>
-              <a href="contact.html" alt="contact"><ion-icon name="mail"></ion-icon>
-              </a>
-              </li>
-    </ul>
     </ul>
   </div>
-  </div>
+  <a href="contact.html" alt="contact">
+    <ion-icon name="mail"></ion-icon>
+  </a>
 </nav>
   <!-- header -->
     <header class="header">
