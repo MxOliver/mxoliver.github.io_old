@@ -212,6 +212,16 @@ ion-icon {
     color: #DB7862;
 }
 
+.portfolio a:hover {
+    text-decoration: none;
+    color: #DB7862;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /*Blog Posts*/
 
