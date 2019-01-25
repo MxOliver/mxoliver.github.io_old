@@ -13,6 +13,8 @@ $(".navbar a").click(function() {
 
 })
 
+$('.collapse').collapse()
+
 /* mobile optimized video dimensions */
 
 var player_width = 854;
