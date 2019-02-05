@@ -235,6 +235,7 @@ ion-icon {
     opacity: 0.5;
 }
 
+
 /*Blog Posts*/
 
 .blog {
@@ -347,4 +348,26 @@ h1 {
 .img-fluid {
     width: 100%;
     height: auto;
+}
+
+
+/* resume page */
+
+.resume-body {
+    font-family: "Alegreya Sans SC";
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #B14F37;
+}
+
+.sub-sub {
+    font-size: 20px;
+    color: #B14F37;
+}
+
+.data {
+    font-size: 18px;
+    color: black;
 }
