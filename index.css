@@ -353,8 +353,10 @@ h1 {
 
 /* resume page */
 
-.resume-body {
+.main {
     font-family: "Alegreya Sans SC";
+    margin-left: 20px;
+    margin-right: 15px;
 }
 
 .subtitle {
@@ -371,3 +373,4 @@ h1 {
     font-size: 18px;
     color: black;
 }
+
