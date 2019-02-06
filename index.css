@@ -372,3 +372,7 @@ h1 {
     color: black;
 }
 
+.container-fluid {
+    margin-top: 85px;
+    margin-bottom: 25px;
+}
