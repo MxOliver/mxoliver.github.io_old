@@ -379,4 +379,5 @@ h1 {
 
 .main .col-sm-8 {
     padding-right: 65px;
+    border-right: dashed 1px;
 }
