@@ -16,3 +16,4 @@ $(".navbar a").click(function() {
 /* toggle */
 
 $('.collapse').collapse('toggle');
+$('#collapseDiv').collapse("toggle");
