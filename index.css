@@ -389,3 +389,7 @@ h1 {
     padding-right: 65px;
     border-right: dashed 1px;
 }
+
+.subrow {
+    padding-bottom: 25px;
+}
