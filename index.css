@@ -334,11 +334,11 @@ h5,
 h6,
 a,
 p {
-    font-family: "Yanone Kaffeesatz";
+    font-family: "Roboto Condensed";
 }
 
 h1 {
-    font-family: "Alegreya Sans SC";
+    font-family: "Roboto Condensed";
 }
 
 
@@ -362,7 +362,7 @@ h1 {
 /* resume page */
 
 .main {
-    font-family: "Alegreya Sans SC";
+    font-family: "Roboto Condensed";
 }
 
 .subtitle {
