@@ -15,4 +15,4 @@ $(".navbar a").click(function() {
 
 /* toggle */
 
-$('#collapseDiv').collapse("toggle");
+$('#navbarToggler').collapse("toggle");
