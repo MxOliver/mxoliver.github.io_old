@@ -5,6 +5,10 @@
     border-bottom: 1px solid black;
 }
 
+.navbar-nav {
+    flex-direction: row !important;
+}
+
 .nav-link,
 .navbar-brand {
     color: black;
@@ -26,6 +30,10 @@
 
 .navbar-brand:hover {
     color: #C18576;
+}
+
+.hidden-xs {
+    flex-direction: row;
 }
 
 
