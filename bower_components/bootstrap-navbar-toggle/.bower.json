@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-navbar-toggle",
+  "description": "Extension for Bootstrap navbar toggle component, improves navigation usability",
+  "version": "0.9.1",
+  "keywords": [
+    "dropdown",
+    "menu",
+    "bootstrap",
+    "front-end"
+  ],
+  "main": [
+    "./dist/stylesheets/bootstrap-navbar-toggle.min.css"
+  ],
+  "ignore": [
+    "log",
+    "docs",
+    "grunt",
+    ".editorconfig",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.0",
+    "bootstrap": "~3.3.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/skywalkapps/bootstrap-navbar-toggle",
+  "_release": "0.9.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.1",
+    "commit": "9dc97e92c6ee8ff5d00f67ff182400665c882080"
+  },
+  "_source": "https://github.com/skywalkapps/bootstrap-navbar-toggle.git",
+  "_target": "^0.9.1",
+  "_originalSource": "bootstrap-navbar-toggle",
+  "_direct": true
+}
