@@ -31,6 +31,13 @@
 
 .brand {
     text-align: left !important;
+    color: black;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.brand:hover {
+    color: #C18576;
 }
 
 .nav-link {
