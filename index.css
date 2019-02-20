@@ -38,11 +38,18 @@
 
 button {
     background-color: white;
-    border-color: black !important;
+    border-color: white !important;
     border-style: solid;
     border-width: 1px;
+    box-shadow: none;
+    outline: none;
+    -webkit-box-shadow: none
 }
 
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 
 .brand:hover {
