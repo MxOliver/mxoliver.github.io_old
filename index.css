@@ -43,6 +43,12 @@
     color: black;
 }
 
+ul .dropdown-menu.show {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    border: none;
+}
+
 .dropdown:hover, .dropdown:active {
     color: black;
 }
