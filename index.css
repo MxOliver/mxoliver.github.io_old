@@ -47,6 +47,10 @@
     color: black;
 }
 
+.dropdown-toggle::after {
+    display: none !important;
+}
+
 button {
     background-color: white;
     border-color: white !important;
