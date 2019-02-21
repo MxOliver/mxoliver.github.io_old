@@ -38,6 +38,15 @@
     font-size: 1.2em;
 }
 
+.dropdown {
+    list-style: none;
+    color: black;
+}
+
+.dropdown:hover, .dropdown:active {
+    color: black;
+}
+
 button {
     background-color: white;
     border-color: white !important;
