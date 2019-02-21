@@ -43,6 +43,10 @@
     color: black;
 }
 
+.dropdown-menu {
+    border: 1.5px dashed rgba(0,0,.15);
+}
+
 ul .dropdown-menu.show {
     margin-left: 1em;
     margin-top: 0.5em;
