@@ -458,6 +458,7 @@ h1 {
 .jumbotron {
     background: white !important;
     border: 2px dashed #B14F37 !important;
+    justify-content: center;
 }
 
 .btn-success {
