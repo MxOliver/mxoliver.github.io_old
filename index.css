@@ -275,7 +275,7 @@ ion-icon {
     display: flex;
     align-self: center;
     padding: 8px;
-    border: 0.8px dashed #DB7862;
+    border: 0.8px dashed rgb(252, 252, 252);
 }
 
 .portfolio .project-link {
@@ -453,4 +453,14 @@ h1 {
 
 .subrow {
     padding-bottom: 25px;
+}
+
+#resume-jumbo {
+    background: white;
+    border: 2px dashed #B14F37;
+}
+
+button .btn-success {
+    background: #DB7862;
+    border: #DB7862;
 }
