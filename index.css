@@ -455,12 +455,12 @@ h1 {
     padding-bottom: 25px;
 }
 
-#resume-jumbo {
-    background: white;
-    border: 2px dashed #B14F37;
+.jumbotron {
+    background: white !important;
+    border: 2px dashed #B14F37 !important;
 }
 
 .btn-success {
-    background: #DB7862;
-    border: #DB7862;
+    background: #DB7862 !important;
+    border: #DB7862 !important;
 }
