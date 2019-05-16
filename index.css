@@ -143,7 +143,19 @@ ion-icon:hover {
     opacity: 0.5;
 }
 
+i:hover {
+    opacity: 0.5;
+}
+
 .footer ion-icon {
+    font-size: 4.3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0 !important;
+    margin-top: 12px;
+}
+
+.footer i {
     font-size: 4.3em;
     margin-left: 0.5em;
     margin-right: 0.5em;
