@@ -163,6 +163,10 @@ i:hover {
     margin-top: 12px;
 }
 
+i {
+    color: black;
+}
+
 .footer {
     display: flex;
     justify-content: center;
